@@ -3,3 +3,4 @@ mcp>=1.20.0
 pydantic>=2.12.3
 mcp-proxy>=0.10.0
 fastmcp>=2.13.0.2
+python-dotenv>=0.20.0
