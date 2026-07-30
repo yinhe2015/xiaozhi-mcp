@@ -20,12 +20,7 @@ mcp_config_list = {}
 
 with open(os.path.join(run_dir, 'log.py'), 'w', encoding='utf-8') as f:
     f.write(f'''\
-import sys
-import os
-
-sys.path.append(os.path.join(os.path.expanduser('~'), 'disk-d', 'pylib'))
-from 日志 import 控制台日志
-日志 = 控制台日志(输出=sys.stderr)''')
+''')
 
 for file in os.listdir(tools_dir):
     if file.endswith('.py'):
